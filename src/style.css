@@ -1,0 +1,149 @@
+
+*{
+  padding:0px;
+  margin:0px;
+  font-family: sans-serif;
+  }
+
+.navigation {
+  display:flex;
+  justify-content:space-between;
+  background:white;
+  color:#B7410E; 
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+.navigation img {
+  flex:1;
+  margin:10px;
+ width:100%;
+ height:70px;
+}
+.navigation i {
+  flex:1;
+  text-align:right;
+  margin:10px;
+  font-size:30px;
+
+}
+
+.hero img {
+  width:100%;
+  height:100vh;
+}
+.Hero {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+
+.Hero:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("https://i.vgy.me/WxwXKX.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	-webkit-filter: brightness(40%);
+	filter: brightness(40%);
+}
+.Hero-content {
+	position: relative;
+	font-family: "Monserrat", sans-serif;
+	color: white;
+	text-align: center;
+	margin: 0.625rem;
+  padding:20px;
+}
+
+.Hero-content h1 {
+/* not sure if the h1 looks better without the letter spacing o with, also i want to create more padding for the content around the image*/
+      letter-spacing: -0.09em;
+
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 30px;
+  color:white;
+}
+
+.Hero-content p {
+  
+	letter-spacing: -0.025em;
+  line-height: 2;
+}
+.Hero-content button {
+  background-color:	#B7410E; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin-top:30px;
+  text-transform: uppercase;
+  cursor:pointer;
+}
+
+.services {
+  margin-top:100px;
+  text-align:center;
+  padding:20px;
+}
+.services .card {
+  width:100%;
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-bottom:40px;
+--tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.services .card h3 {
+    letter-spacing: -0.09em;
+    color:#B7410E; 
+    margin-bottom:10px;
+    text-transform:uppercase;
+}
+.services .card p {
+  letter-spacing: 0.05em;
+  line-height: 1.625;
+  padding:10px;
+}
+.services .card i {
+   color:#B7410E; 
+   margin-bottom:20px;
+  font-size:45px;
+}
+
+
+.projects {
+  text-align:center;
+  margin-top:150px;
+  padding:20px;
+}
+.projects h1 {
+      letter-spacing: -0.09em;
+      color:#B7410E; 
+      text-transform:uppercase;
+
+}
+.projects p {
+    line-height: 2;
+    padding:10px;
+}
