@@ -1,42 +1,13 @@
 import React, { useState } from 'react';
-
+import data from './GalleryData.js';
+import Comp from './Comp.js'
 function Gallery(){
+  let photos = data.map(function(value){
+    return <Comp image= {value.image} address = {value.address} />
+  })
   return (
     <>
-  
-
-<div className='gallery'>
-   <div className='img-cont'>
-      <img src="https://i.vgy.me/WFgC1K.jpg" alt="WFgC1K.jpg" alt='building'/>
-      <div className='block'>
-         <i className="fas fa-search-plus"></i>
-         <h4>750B LakeWood Court</h4>
-      </div>
-   </div>
-   <div className='img-cont'>
-      <img src="https://i.vgy.me/WFgC1K.jpg" alt="WFgC1K.jpg" alt='building'/>
-      <div className='block'>
-         <i className="fas fa-search-plus"></i>
-         <h4>750B LakeWood Court</h4>
-      </div>
-   </div>
-   <div className='img-cont'>
-      <img src="https://i.vgy.me/WFgC1K.jpg" alt="WFgC1K.jpg" alt='building'/>
-      <div className='block'>
-         <i className="fas fa-search-plus"></i>
-         <h4>750B LakeWood Court</h4>
-      </div>
-   </div>
-   <div className='img-cont'>
-      <img src="https://i.vgy.me/WFgC1K.jpg" alt="WFgC1K.jpg" alt='building'/>
-      <div className='block'>
-         <i className="fas fa-search-plus"></i>
-         <h4>750B LakeWood Court</h4>
-      </div>
-   </div>
-</div>
-
-
+    {photos}
     </>
   )
 }
