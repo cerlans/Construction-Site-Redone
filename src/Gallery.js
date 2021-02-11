@@ -3,15 +3,40 @@ import React, { useState } from 'react';
 function Gallery(){
   return (
     <>
-     <div className='card'>
-        <div className='icon'>
-        <i class="far fa-building"></i>
-        <h3>Construction Services</h3>
-        </div>
-        <div className='content'>
-        <p>We provide high-quality construction services to a wide variety of clients.</p>
-        </div>
-    </div>
+  
+
+<div className='gallery'>
+   <div className='img-cont'>
+      <img src="https://i.vgy.me/WFgC1K.jpg" alt="WFgC1K.jpg" alt='building'/>
+      <div className='block'>
+         <i className="fas fa-search-plus"></i>
+         <h4>750B LakeWood Court</h4>
+      </div>
+   </div>
+   <div className='img-cont'>
+      <img src="https://i.vgy.me/WFgC1K.jpg" alt="WFgC1K.jpg" alt='building'/>
+      <div className='block'>
+         <i className="fas fa-search-plus"></i>
+         <h4>750B LakeWood Court</h4>
+      </div>
+   </div>
+   <div className='img-cont'>
+      <img src="https://i.vgy.me/WFgC1K.jpg" alt="WFgC1K.jpg" alt='building'/>
+      <div className='block'>
+         <i className="fas fa-search-plus"></i>
+         <h4>750B LakeWood Court</h4>
+      </div>
+   </div>
+   <div className='img-cont'>
+      <img src="https://i.vgy.me/WFgC1K.jpg" alt="WFgC1K.jpg" alt='building'/>
+      <div className='block'>
+         <i className="fas fa-search-plus"></i>
+         <h4>750B LakeWood Court</h4>
+      </div>
+   </div>
+</div>
+
+
     </>
   )
 }
