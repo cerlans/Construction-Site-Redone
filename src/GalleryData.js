@@ -1,7 +1,7 @@
 
 
 const data = [{
-  image:'https://i.vgy.me/WFgC1K.jpg',
+  image:'https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
   address:'80 Devonshire Ave. '
 },
 {image:'https://images.unsplash.com/photo-1520528938231-ca6d3d2f9608?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1aWxkaW5nc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60',
