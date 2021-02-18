@@ -153,32 +153,33 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
     padding:10px;
 }
 
+/*What im working on now*/
 
-.gallery {
+.project-photo {
+  background-position: center;
   height:300px;
-background-position: center
+  margin-bottom:100px;
 }
-.img-cont{
+.outer-cont{
     display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height:100%;
 }
 
-.block {
-
+.inner-cont {
   text-align:center;
-    width:50%;
+  width:50%;
   margin:0 auto;
   background:white;
   padding-top:15px;
   padding-bottom:10px;
 }
-.block i {
+.inner-cont i {
   font-size:25px;
   padding-bottom:5px;
 }
-.block h4{
+.inner-cont h4{
   padding:0px;
   margin:0px;
 }
