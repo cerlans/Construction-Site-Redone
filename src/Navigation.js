@@ -11,7 +11,7 @@ function Navigation (){
     <div className ='Hero-content'>
     <h1>STAINLESS REPUTATION</h1>
     <p>We've earned an outstand reputation for our quality work and our integrity in dealing with clients,architects,suppliers,and sub-contractors.</p>
-    <button>Learn more</button>
+    <button className='hvr-fade'>Learn more</button>
     </div>
     </section>
     </>
