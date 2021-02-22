@@ -28,6 +28,7 @@ p {
 .navigation i {
 	flex: 1;
 	text-align: right;
+  color:#FF7900;
 	margin: 10px;
 	font-size: 30px;
 }
