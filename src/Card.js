@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Comp(props){
+function Card(props){
 return (
-<div className='project-photo' style={{ backgroundImage: `url(${props.image})` }}>
+<div className='project-photo' style={{ backgroundImage: `url(${props.photo})` }}>
    <div className='outer-cont'>
       <div className='inner-cont'>
        <i class="fas fa-search"></i>
@@ -13,4 +13,4 @@ return (
 )
 }
 
-export default Comp;
+export default Card;
