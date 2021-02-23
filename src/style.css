@@ -8,6 +8,7 @@
 
 p {
 	line-height: 1.6;
+ 
 }
 
 .navigation {
@@ -89,6 +90,7 @@ p {
 .Hero-content p {
 	letter-spacing: -0.025em;
 	line-height: 2;
+  color:white;
 }
 
 .Hero-content button {
@@ -123,7 +125,7 @@ p {
 
 .services .card h3 {
 	letter-spacing: -0.09em;
-	color: #B7410E;
+	color: #FF7900;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
@@ -135,7 +137,7 @@ p {
 }
 
 .services .card i {
-	color: #B7410E;
+	color: #FF7900;
 	margin-bottom: 20px;
 	font-size: 45px;
 }
@@ -148,7 +150,7 @@ p {
 
 .projects h1 {
 	letter-spacing: -0.09em;
-	color: #B7410E;
+	color: #FF7900;
 	text-transform: uppercase;
 }
 
@@ -216,3 +218,53 @@ p {
 	color: white;
 }
 
+
+.filter-container {
+  margin-top:30px;
+  margin-bottom:100px;
+
+  width:100%;
+}
+.filter-button {
+  width:50%;
+  border:2px solid black;
+  margin:0 auto;
+  text-transform:uppercase;
+  padding:10px;
+  position:relative;
+  cursor:pointer;
+}
+.filter-button i {
+  margin-left:8px;
+}
+.hidden-menu {
+  display:none;
+}
+.filter-menu {
+  display:block;
+  margin:0 auto;
+  margin-top:20px;
+  padding:20px;
+  width:100%;
+  position:absolute;
+  background:white;
+  border:3px solid white;
+  
+ 	--tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.filter-menu button {
+  display:block;
+  width:100%;
+  background-color: white;
+	border: none;
+	color: #FF7900;
+	font-weight: 600;
+	padding: 10px 22px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
