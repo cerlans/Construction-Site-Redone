@@ -107,7 +107,14 @@ p {
 	text-transform: uppercase;
 	cursor: pointer;
 }
+.slides-btn {
+ margin-top:6rem;
 
+}
+.slides-btn i {
+  margin:20px;
+  cursor:pointer;
+}
 .services {
 	margin-top: 100px;
 	text-align: center;
