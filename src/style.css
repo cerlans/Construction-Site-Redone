@@ -270,4 +270,35 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 
 .footer {
   width:100%;
+  height:auto;
+  background:#1d232f;
+  color:white;
+  text-align:left;
+}
+.footer .text {
+  display:inline-block;
+  padding:1rem;
+  margin-top:5rem;
+}
+.footer .text p {
+  margin-top:15px;
+}
+
+.footer .contact-methods {
+  display:block;
+  padding:1rem;
+}
+
+.sub-parent {
+  display:flex;
+flex-wrap:wrap;
+}
+.sub-parent div {
+   flex:1;
+   border:1px solid red;
+}
+.sub-parent h3 {
+  color:#FF7900;
+  margin-top:10px;
+  text-transform:uppercase;
 }
