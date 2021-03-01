@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import ContactForm from './ContactForm.js'
 function Footer(){
   return (
     <>
@@ -36,6 +36,7 @@ function Footer(){
           <i class="fab fa-google"></i>
          </div>
         </div>
+        <ContactForm/>
       </div>
     </>
   )

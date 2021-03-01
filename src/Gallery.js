@@ -51,17 +51,3 @@ function Gallery(){
 
 export default Gallery;
 
-
-/* <button onClick = {function(){
-   setFilter('')
- }}> See ALL photos</button>
- <button onClick={function(){
-   setFilter('Nature')
- }}>All nature photos</button>
-  <button onClick={function(){
-   setFilter('Commercial')
- }}>All Commercial photos</button>
-  <button onClick={function(){
-   setFilter('Residential')
- }}>All residential photos</button>
- */

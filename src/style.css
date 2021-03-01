@@ -4,6 +4,7 @@
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Poppins', sans-serif;
+  box-sizing:border-box;
 }
 
 p {
@@ -266,7 +267,7 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 	text-transform: uppercase;
 	cursor: pointer;
 }
-/* Footer Section */
+/* Footer Section starts here */
 
 .footer {
   width:100%;
@@ -313,4 +314,12 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
  font-size:30px;
  margin:30px;
  cursor:pointer;
+}
+/*Contact form input felds start here */
+.footer .contact-form {
+  padding:2rem;
+}
+.footer .contact-form input {
+width:100%;
+margin-bottom:20px;
 }
