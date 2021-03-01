@@ -6,7 +6,7 @@ function Navigation (){
   return (
     <>
     <nav className='navigation'>
-     
+     <h1>Lex</h1>
      <i class="fas fa-bars"></i>
     </nav>
     <section className='Hero' style={{ backgroundImage: `url(${data[count]})` }}>

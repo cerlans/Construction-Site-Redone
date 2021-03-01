@@ -19,6 +19,10 @@ p {
 	color: #B7410E;
 	padding: 5px 0px 0px 5px;
 }
+.navigation h1 {
+  color:black;
+  text-transform:uppercase;
+}
 
 .navigation img {
 	flex: 1;
@@ -30,7 +34,7 @@ p {
 .navigation i {
 	flex: 1;
 	text-align: right;
-  color:#FF7900;
+  color:black;
 	margin: 10px;
 	font-size: 30px;
 }
@@ -112,7 +116,13 @@ p {
 	text-align: center;
 	padding: 20px;
 }
-
+.services.card:first-child {
+  padding:30px;
+}
+.services .card:first-child h1{
+  padding:25px;
+  font-weight:500;
+}
 .services .card {
 	width: 100%;
 	padding-top: 50px;
@@ -315,11 +325,30 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
  margin:30px;
  cursor:pointer;
 }
+
+
 /*Contact form input felds start here */
 .footer .contact-form {
-  padding:2rem;
+  padding:1rem;
 }
 .footer .contact-form input {
 width:100%;
 margin-bottom:20px;
+padding:10px;
+
+}
+.footer textarea {
+  width:100%;
+}
+.footer button {
+  background-color: #FF7900;
+  margin-top:10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-transform:uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
