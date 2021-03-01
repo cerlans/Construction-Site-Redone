@@ -123,6 +123,14 @@ p {
   padding:25px;
   font-weight:500;
 }
+.services .card:first-child button {
+  width:50%;
+  border:3px solid black;
+  text-transform:uppercase;
+  padding:10px;
+  cursor:pointer;
+  background:white;
+}
 .services .card {
 	width: 100%;
 	padding-top: 50px;

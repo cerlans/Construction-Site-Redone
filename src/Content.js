@@ -6,6 +6,7 @@ function Content (){
     <section className='services'>
     <div className='card'>
     <h1>HIGH-QUALITY SERVICES</h1>
+    <button>View More</button>
     </div>
     <div className='card'>
         <div className='icon'>
