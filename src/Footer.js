@@ -5,7 +5,7 @@ function Footer(){
     <>
       <div className='footer'>
         <div className='text' >
-        <h1>Gex Construction Company</h1>
+        <h1>Test Construction Company</h1>
         <p>Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit ametLorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit amet</p>
         </div>
         <div className='contact-methods'>
@@ -27,6 +27,14 @@ function Footer(){
          <span>tester123@randomemail.com</span>
          </div>
         </div>
+        </div>
+        <div className='social-links'>
+         <div>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-google"></i>
+         </div>
         </div>
       </div>
     </>

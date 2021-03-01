@@ -305,3 +305,12 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 .sub-parent span {
   display:block;
 }
+.footer .social-links {
+  display:flex;
+  justify-content:center;
+}
+.footer .social-links div i {
+ font-size:30px;
+ margin:30px;
+ cursor:pointer;
+}
