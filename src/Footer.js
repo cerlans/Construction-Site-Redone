@@ -15,13 +15,17 @@ function Footer(){
         </div>
          <div className='sub-parent'>
         <div><h3>Phones</h3></div>
-        <div>1-203-4058-49123</div>
-        <div>1-203-4058-49123</div>
+         <div>
+          <span>+ 1-203-4058-49123</span>
+          <span>+ 1-203-4058-49123</span>
+          </div>
         </div>
            <div className='sub-parent'>
         <div><h3>E-mails</h3></div>
-         <div>tester123@randomemail.com</div>
-         <div>tester123@randomemail.com</div>
+         <div>
+         <span>tester123@randomemail.com</span>
+         <span>tester123@randomemail.com</span>
+         </div>
         </div>
         </div>
       </div>

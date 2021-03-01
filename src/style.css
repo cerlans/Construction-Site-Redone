@@ -291,14 +291,17 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 
 .sub-parent {
   display:flex;
-flex-wrap:wrap;
+    padding:15px;
+  border-bottom: 1px solid gray;
 }
 .sub-parent div {
    flex:1;
-   border:1px solid red;
 }
 .sub-parent h3 {
   color:#FF7900;
   margin-top:10px;
   text-transform:uppercase;
+}
+.sub-parent span {
+  display:block;
 }
