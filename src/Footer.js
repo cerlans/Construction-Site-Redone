@@ -5,7 +5,7 @@ function Footer(){
     <>
       <div className='footer'>
         <div className='text' >
-        <h1>Test Construction Company</h1>
+        <h1><span style={{color:'#FF7900'}}>LEX</span> Construction Company</h1>
         <p>Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit ametLorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit amet</p>
         </div>
         <div className='contact-methods'>
