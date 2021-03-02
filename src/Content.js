@@ -41,7 +41,9 @@ function Content (){
       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       <Gallery/>
       <div className='experience'>
-        <span>22</span>
+        <span>20</span>
+        <h1>Years of experience</h1>
+        <p>With over 20 years of experience and established in Norwalk, Connecticut, we are the premier construction lorem ipsum dolor sit amet</p>
       </div>
   </section>
     </>
