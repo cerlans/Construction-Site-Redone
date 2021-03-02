@@ -8,6 +8,13 @@ function Navigation (){
     <nav className='navigation'>
      <h1>Lex</h1>
      <i class="fas fa-bars"></i>
+        <ul className='desktop-nav'>
+          <li>Home</li>
+          <li>About</li>
+          <li>Gallery</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
     </nav>
     <section className='Hero' style={{ backgroundImage: `url(${data[count]})` }}>
     <div className ='Hero-content' >
