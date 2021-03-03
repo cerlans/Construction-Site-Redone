@@ -4,41 +4,48 @@ function Content (){
   return(
     <>
     <section className='services'>
-    <div className='card'>
-    <h1>HIGH-QUALITY SERVICES</h1>
-    <button>View More</button>
-    </div>
-    <div className='card'>
-        <div className='icon'>
-        <i class="far fa-building"></i>
-        <h3>Construction Services</h3>
+      <div className='img-cont'>
+        <img src='https://images.unsplash.com/photo-1614728958368-62f3dccc822f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80'/>
+      </div>
+      <div className='cards'>
+          <div className='card'>
+        <h1>HIGH-QUALITY SERVICES</h1>
+        <button>View More</button>
         </div>
-        <div className='content'>
-        <p>We provide high-quality construction services to a wide variety of clients.</p>
+        <div className='card'>
+            <div className='icon'>
+            <i class="far fa-building"></i>
+            <h3>Construction Services</h3>
+            </div>
+            <div className='content'>
+            <p>We provide high-quality construction services to a wide variety of clients.</p>
+            </div>
         </div>
-    </div>
-      <div className='card'>
-        <div className='icon'>
-        <i class="fas fa-comments"></i>
-        <h3>Consultations</h3>
+          <div className='card'>
+            <div className='icon'>
+            <i class="fas fa-comments"></i>
+            <h3>Consultations</h3>
+            </div>
+            <div className='content'>
+            <p>We provide high-quality construction services to a wide variety of clients.</p>
+            </div>
         </div>
-        <div className='content'>
-        <p>We provide high-quality construction services to a wide variety of clients.</p>
+          <div className='card'>
+            <div className='icon'>
+          <i class="fas fa-pencil-ruler"></i>
+            <h3>Interior-design</h3>
+            </div>
+            <div className='content'>
+            <p>We provide high-quality construction services to a wide variety of clients.</p>
+            </div>
         </div>
-    </div>
-      <div className='card'>
-        <div className='icon'>
-       <i class="fas fa-pencil-ruler"></i>
-        <h3>Interior-design</h3>
-        </div>
-        <div className='content'>
-        <p>We provide high-quality construction services to a wide variety of clients.</p>
-        </div>
+    
     </div>
     </section>
   <section className='projects'>
       <h1>Latest - Projects</h1>
       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+       
       <Gallery/>
       <div className='experience'>
         <span>20</span>

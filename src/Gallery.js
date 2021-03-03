@@ -43,8 +43,9 @@ function Gallery(){
         </div>
       </div>
     </div>
- 
-  {myData}
+ <div className='gallery-parent'>
+   {myData}
+ </div>
     </>
   )
 }
