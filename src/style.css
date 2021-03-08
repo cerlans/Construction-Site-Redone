@@ -466,8 +466,20 @@ padding:10px;
       margin-top:15px;
       margin-bottom:15px;
   }
-  .filter-container {
-    
+  .filter-container i {
+    display:none;
   }
-
+  .filter-container  .filter-button{
+    border:none;
+    width:100%;
+ }
+  .filter-container .hidden-menu{
+    display:block;
+  }
+  .filter-container .hidden-menu button {
+     background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  }
 }
