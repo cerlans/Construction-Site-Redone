@@ -29,7 +29,7 @@ function Gallery(){
        Filter
       <i class="fas fa-sort-down"></i>
         <div className={currentClass}>
-          <button onClick = {function(){setFilter('')}}> See ALL photos</button>
+          <button onClick = {function(){setFilter('')}}>All photos</button>
           <button onClick={function(){setFilter('Nature')}}>nature photos</button>
           <button onClick={function(){setFilter('Commercial')}}>Commercial photos</button>
           <button onClick={function(){setFilter('Residential')}}>residential photos</button>
