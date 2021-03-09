@@ -196,9 +196,10 @@ p {
 	background-position: center;
 	height: 300px;
 	margin-bottom: 50px;
+  
 }
 .projects .experience span {
-  width:100% !important;
+  width:100%;
   background-image: url('https://images.unsplash.com/photo-1606075920539-565e9f1de54c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGJsdWUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'); 
         background-repeat: repeat; 
        background-position: center; 
@@ -393,9 +394,7 @@ padding:10px;
 
 
 @media (min-width:961px)  {
-  body {
-  padding:30px;
-  }
+ 
   .navigation {
    padding:10px
   }
@@ -496,4 +495,9 @@ padding:10px;
   .filter-desktop li:hover {
     color:#FF7900;
   }
+  /*Desktop footer starts here*/
+  .footer{
+   display:flex;
+  }
+
 }

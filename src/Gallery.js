@@ -6,7 +6,6 @@ function Gallery(){
   const [filter,setFilter] = useState('')
   const [myData,setData] = useState()
   const [currentClass,setClass] = useState('hidden-menu')
-
   useEffect(()=> {
     if(filter === ''){
      let allResults = data.map(function(value){

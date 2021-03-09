@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ContactForm from './ContactForm.js'
 function Footer(){
   return (
+    
     <>
       <div className='footer'>
         <div className='text' >
