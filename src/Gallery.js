@@ -29,15 +29,20 @@ function Gallery(){
        Filter
       <i class="fas fa-sort-down"></i>
         <div className={currentClass}>
-          <button onClick = {function(){setFilter('')}}>All photos</button>
-          <button onClick={function(){setFilter('Nature')}}>nature photos</button>
-          <button onClick={function(){setFilter('Commercial')}}>Commercial photos</button>
-          <button onClick={function(){setFilter('Residential')}}>residential photos</button>
+          <button onClick={() =>{setFilter('')}}>All photos</button>
+          <button onClick={() => {setFilter('Nature')}}>nature photos</button>
+          <button onClick={() =>{setFilter('Commercial')}}>Commercial photos</button>
+          <button onClick={() =>{setFilter('Residential')}}>residential photos</button>
         </div>
       </div>
     </div>
     <div className='filter-desktop'>
-    
+      <ul>
+       <li onClick={()=> {setFilter('')}}>All photos</li>
+       <li onClick={()=> {setFilter('Nature')}}>Nature photos</li>
+       <li onClick={()=> {setFilter('Commercial')}}>Commercial photos</li>
+       <li onClick={()=> {setFilter('Residential')}}>Residential photos</li>
+      </ul>
     </div>
  <div className='gallery-parent'>
    {myData}
