@@ -38,6 +38,7 @@ p {
   color:black;
 	margin: 10px;
 	font-size: 30px;
+  border:1px solid;
 }
 .navigation .desktop-nav {
   display:none;
@@ -396,27 +397,38 @@ padding:10px;
 @media (min-width:961px)  {
  
   .navigation {
-   padding:10px
   }
   .navigation i {
     display:none;
   }
-  .navigation h1 {
+  .navigation div {
     flex:1;
-    font-size:40px;
   }
  
+  .navigation div h1 {
+    color:black;
+    margin-top:10px;
+  }
+   .navigation div .logo {
+     color:#FF7900;
+     font-size:40px;
+     padding-left:20px;
+     margin-right:10px;
+  }
   .navigation .desktop-nav {
     list-style-type: none;
     display:flex;
     flex:1;
-    justify-content:space-between;
-    margin:0px;
-    padding:0px;
+    justify-content:flex-end;
   }
   .desktop-nav li {
     color:black;
-    margin-top:20px;
+    margin:20px;
+    margin-top:25px;
+    font-size:20px;
+    padding-bottom:5px;
+    font-weight:500;
+    cursor:pointer;
   }
 
   .Hero {

@@ -6,14 +6,19 @@ function Navigation (){
   return (
     <>
     <nav className='navigation'>
-     <h1>Lex</h1>
+       <div>
+        <h1><span className='logo'>Lex</span>Contracotrs</h1> 
+       </div>
      <i class="fas fa-bars"></i>
         <ul className='desktop-nav'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Gallery</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
+            <li class='hvr-underline-from-center'>Home</li>
+            <li class='hvr-underline-from-center'>About Us</li>
+            <li class='hvr-underline-from-center'>Gallery</li>
+            <li class='hvr-underline-from-center'>Blog</li>
+            <li class='hvr-underline-from-center'>Contact Us</li>
+            <li class='hvr-underline-from-center'>Pages</li>
+            <li><i class="fas fa-search"></i></li>
+            <li><i class="fas fa-share-alt"></i></li>
         </ul>
     </nav>
     <section className='Hero' style={{ backgroundImage: `url(${data[count]})` }} >
