@@ -487,6 +487,18 @@ padding:10px;
     margin:0 auto;
     text-align:left;
   }
+  .projects button{
+    background-color: #FF7900;
+    margin-top:10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
   .filter-desktop{
     padding:3rem;
     margin:0 auto;
@@ -510,6 +522,60 @@ padding:10px;
   /*Desktop footer starts here*/
   .footer{
    display:flex;
-  }
+   justify-content:space-between;
 
+  }
+  .footer .row {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    padding:50px;
+  }
+  .footer .row:nth-child(2) h1{
+    margin-bottom:2rem;
+  }
+  .footer .row div {
+    margin-bottom:10px;
+    padding:10px;
+  }
+  .footer .row h1 {
+    text-align:center;
+    
+  }
+  .footer .row h2 span {
+    color:#FF7900;
+    font-size:30px;
+    text-transform: uppercase;
+  }
+  .footer .row h3{
+    display:inline-block;
+    color:#FF7900;
+    text-transform:uppercase;
+   
+  }
+  .footer .row .contact-links {
+    display:flex;
+    border-bottom:1px solid white;
+    padding:10px;
+  }
+  .footer .row .contact-links h3 {
+    flex:1;
+  }
+  .footer .row .contact-links span {
+    flex:1;
+  }
+   .footer .row ul {
+    list-style-type:none;
+  }
+  .footer .row ul li{
+    font-size:25px;
+    padding:1rem;
+    border-bottom:1px solid white;
+    text-align:justify;
+    transition:0.2s;
+  }
+  .footer ul li:hover{
+    color:#FF7900; ;
+  }
 }

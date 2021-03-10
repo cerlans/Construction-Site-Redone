@@ -39,7 +39,6 @@ function Content (){
             <p>We provide high-quality construction services to a wide variety of clients.</p>
             </div>
         </div>
-    
     </div>
     </section>
   <section className='projects'>
@@ -49,7 +48,8 @@ function Content (){
       <div className='experience'>
         <span>20</span>
         <h1>Years of experience</h1>
-        <p>With over 20 years of experience and established in Norwalk, Connecticut, we are the premier construction lorem ipsum dolor sit amet</p>
+        <p>With over 20 years of experience and established in Norwalk, Connecticut, we are the premier construction lorem ipsum dolor sit ametWith over 20 years of experience and established in Norwalk, Connecticut, we are the premier construction lorem ipsum dolor sit amet</p>
+        <button>Get in Touch</button>
       </div>
   </section>
     </>
