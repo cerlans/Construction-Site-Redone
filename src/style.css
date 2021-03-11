@@ -406,10 +406,15 @@ padding:10px;
 
 @media (min-width:961px)  {
  
-  .navigation {
-  }
   .navigation i {
     display:none;
+  }
+  .navigation ul li  i {
+    display:block;
+    border:none;
+    font-size:20px;
+    color:#FF7900;
+    margin-top:px;
   }
   .navigation div {
     flex:1;
@@ -417,7 +422,7 @@ padding:10px;
  
   .navigation div h1 {
     color:black;
-    margin-top:10px;
+    
   }
    .navigation div .logo {
      color:#FF7900;
@@ -430,11 +435,12 @@ padding:10px;
     display:flex;
     flex:1;
     justify-content:flex-end;
+    
   }
   .desktop-nav li {
     color:black;
-    margin:20px;
-    margin-top:25px;
+    margin:15px;
+   
     font-size:20px;
     padding-bottom:5px;
     font-weight:500;
@@ -449,6 +455,9 @@ padding:10px;
   }
   .img-cont{
     flex:1;
+  }
+  .img-cont img {
+    	filter: opacity(90%);
   }
   .services .cards {
       flex:1;

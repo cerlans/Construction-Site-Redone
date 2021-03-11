@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 function ContactForm(){
   return (
     <>
+    
     <div className='contact-form'>
     <form>
       <input type='text' placeHolder='Name'/>

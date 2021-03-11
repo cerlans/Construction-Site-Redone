@@ -24,6 +24,7 @@ function Footer() {
           <div className='contact-links'>
             <h3>Phones</h3>
             <span>+1 323-913-4688, +1 323-888-4554 </span>
+            
           </div>
         </div>
         <div className="row">

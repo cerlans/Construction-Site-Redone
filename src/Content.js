@@ -6,7 +6,7 @@ function Content() {
     <>
       <section className="services">
         <div className="img-cont">
-          <img src="https://images.unsplash.com/photo-1614728958368-62f3dccc822f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" />
+          <img src="https://images.unsplash.com/photo-1563391017873-6e6beab67fed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" />
         </div>
         <div className="cards">
           <div className="card">
