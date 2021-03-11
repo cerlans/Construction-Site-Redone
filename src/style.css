@@ -5,6 +5,7 @@
 	margin: 0px;
 	font-family: 'Poppins', sans-serif;
   box-sizing:border-box;
+  
 }
 
 p {
@@ -22,8 +23,10 @@ p {
 .navigation h1 {
   color: #FF7900;
   text-transform:uppercase;
-
+  padding:0px;
+  margin-top:5px;
 }
+
 
 .navigation img {
 	flex: 1;
@@ -37,8 +40,8 @@ p {
 	text-align: right;
   color:black;
 	margin: 10px;
-	font-size: 30px;
-  border:1px solid;
+	font-size: 35px;
+  
 }
 .navigation .desktop-nav {
   display:none;
@@ -126,6 +129,9 @@ p {
 	text-align: center;
 	padding: 20px;
 }
+.services img {
+  width:100%;
+}
 .services.card:first-child {
   padding:30px;
 }
@@ -177,17 +183,23 @@ p {
 	margin-top: 150px;
 	padding: 20px;
 }
+.projects .filter-desktop {
+  display:none;
+}
 
 .projects h1 {
-	letter-spacing: -0.09em;
-	color: #FF7900;
+
+	color: black;
 	text-transform: uppercase;
   
 }
-
+.projects h1 span {
+  color:#FF7900;
+}
 .projects p {
-	line-height: 2;
-	padding: 10px;
+	line-height: 1.6;
+	padding: 15px;
+  text-align:justify;
 }
 
 
@@ -319,6 +331,71 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 	text-transform: uppercase;
 	cursor: pointer;
 }
+.projects .experience button {
+  all:unset;
+  padding: 10px 22px;
+  background:#FF7900;
+  color:white;
+  cursor: pointer;
+
+}
+
+/* Testimonial Section */
+
+.testimonial {
+    
+    margin-bottom:10rem;
+    margin-top:10rem;
+    padding:10px;
+  }
+
+.testimonial h1 {
+    text-align:center;
+    margin-bottom:3rem;
+    font-size:25px;
+  }
+.testimonial span {
+   color:#FF7900;
+  }
+
+.testimonial h1 {
+  text-align:center;
+}
+.testimonial h1 span {
+  color:#FF7900;
+}
+.testimonial .monial-card {
+  height:auto;
+  margin-bottom:3rem;
+  padding:10px;
+  	--tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+   width:100%;
+}
+ .testimonial .header {
+     display:flex;
+  }
+  .testimonial .header .inner {
+    align-items: center;
+    flex:1;
+    display:flex;
+    padding-top:10px;
+  }
+  .testimonial .header .inner div {
+    padding-top:10px;
+    padding-left:5px;
+  }
+
+  .testimonial i {
+    font-size:50px;
+    margin:10px;
+    color:#FF7900;
+  }
+  .testimonial .content {
+      padding:20px;
+      height:auto;
+  }
+
 /* Footer Section starts here */
 
 .footer {
@@ -358,29 +435,37 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 .sub-parent span {
   display:block;
 }
+
+
+
+
+
+
+/*Contact form input felds start here */
+.footer {
+  height:100%;
+}
+.footer .contact-form {
+ padding:0px;
+}
 .footer .social-links {
   display:flex;
   justify-content:center;
 }
 .footer .social-links div i {
  font-size:30px;
- margin:30px;
  cursor:pointer;
-}
-
-
-/*Contact form input felds start here */
-.footer .contact-form {
-  padding:1rem;
 }
 .footer .contact-form input {
 width:100%;
 margin-bottom:20px;
-padding:10px;
 
 }
 .footer textarea {
   width:100%;
+}
+.footer input {
+  padding:10px;
 }
 .footer button {
   background-color: #FF7900;
@@ -396,13 +481,74 @@ padding:10px;
   font-size: 16px;
   transition:0.2s;
 }
-.footer button:hover{
+  .footer button:hover{
    background:white;
     border:1px solid #FF7900;
     color:#FF7900;
 }
 
-
+  .footer span {
+    color:#FF7900;
+  }
+  .footer .row {
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    margin-bottom:2rem;
+    margin-top:2rem;
+  }
+  .footer .row:nth-child(2) h1{
+    margin-bottom:2rem;
+  }
+  .footer .row:nth-child(3){
+    display:none;
+  }
+  .footer .row div {
+    margin-bottom:10px;
+    padding:10px;
+  }
+  .footer .row h1 {
+    text-align:center;
+    font-size:30px;
+  }
+  .footer .row h2 span {
+    color:#FF7900;
+    font-size:30px;
+    text-transform: uppercase;
+  }
+  .footer .row h3{
+    display:inline-block;
+    color:#FF7900;
+    text-transform:uppercase;
+   
+  }
+  .footer .row .contact-links {
+    display:flex;
+    border-bottom:1px solid white;
+    padding:10px;
+    color:white;
+  }
+  .footer .row .contact-links h3 {
+    flex:1;
+  }
+  .footer .row .contact-links span {
+    flex:1;
+    color:white;
+  }
+   .footer .row ul {
+    list-style-type:none;
+  }
+  .footer .row ul li{
+    cursor:pointer;
+    font-size:18px;
+    padding:1rem;
+    border-bottom:1px solid gray;
+    text-align:justify;
+    transition:0.2s;
+  }
+  .footer ul li:hover{
+    color:#FF7900; ;
+  }
 
 @media (min-width:961px)  {
  
@@ -603,6 +749,11 @@ padding:10px;
   .filter-desktop li:hover {
     color:#FF7900;
   }
+
+
+
+
+
   /*Desktop footer starts here*/
   .footer{
    display:flex;

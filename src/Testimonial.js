@@ -9,7 +9,7 @@ function Testimonial() {
           <div className="inner">
             <i class="fas fa-user"></i>
             <div>
-              <p>Norbert Hoog</p>
+              <p>Jean Kirschtein</p>
               <p>
                 <span>Regular Client</span>
               </p>
@@ -53,7 +53,7 @@ function Testimonial() {
           <div className="inner">
             <i class="fas fa-user"></i>
             <div>
-              <p> Reinier Tatenda</p>
+              <p> Reiner Braun</p>
               <p>
                 <span>Regular Client</span>
               </p>

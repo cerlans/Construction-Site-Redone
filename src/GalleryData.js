@@ -50,7 +50,7 @@ const data = [
   address:'544 Brookside Rd',
 },{
   photo:'https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-  tag:'ature',
+  tag:'Nature',
   address:'RandomStreet'
 }]
 
