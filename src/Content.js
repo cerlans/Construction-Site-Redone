@@ -52,7 +52,7 @@ function Content() {
         </div>
       </section>
       <section className="projects">
-        <h1>Latest - Projects</h1>
+        <h1>Latest  <span>Projects</span></h1>
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
@@ -63,8 +63,8 @@ function Content() {
         </p>
         <Gallery />
         <div className="experience">
-          <span>20</span>
-          <h1>Years of experience</h1>
+          <span className='textured'>20</span>
+          <h1>Years  of  <span>experience</span></h1>
           <p>
             With over 20 years of experience and established in Norwalk,
             Connecticut, we are the premier construction lorem ipsum dolor sit
@@ -76,7 +76,12 @@ function Content() {
         </div>
       </section>
       <section className="testimonial">
-        <Testimonial />
+        <h1>
+          What <span>people</span> are saying
+        </h1>
+        <div className="flex-parent">
+          <Testimonial />
+        </div>
       </section>
     </>
   );

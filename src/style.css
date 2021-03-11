@@ -199,7 +199,7 @@ p {
 	margin-bottom: 50px;
   
 }
-.projects .experience span {
+.projects .experience .textured {
   width:100%;
   background-image: url('https://images.unsplash.com/photo-1606075920539-565e9f1de54c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGJsdWUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'); 
         background-repeat: repeat; 
@@ -216,6 +216,9 @@ p {
                     helvetica, arial, sans-serif; 
         font-weight: 800; 
         -webkit-font-smoothing: antialiased; 
+}
+.projects h1 {
+  letter-spacing:normal;
 }
 .outer-cont {
 	display: flex;
@@ -384,12 +387,19 @@ padding:10px;
   margin-top:10px;
   border: none;
   color: white;
+  cursor:pointer;
   padding: 15px 32px;
   text-align: center;
   text-transform:uppercase;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition:0.2s;
+}
+.footer button:hover{
+   background:white;
+    border:1px solid #FF7900;
+    color:#FF7900;
 }
 
 
@@ -482,13 +492,21 @@ padding:10px;
   .filter-container{
     display:none;
   }
+
   .projects p {
     width:50%;
     margin:0 auto;
     text-align:left;
   }
+  .projects h1 {
+    color:black;
+  }
+  .projects h1 span {
+    color:#FF7900;
+  }
   .projects button{
     background-color: #FF7900;
+    cursor:pointer;
     margin-top:10px;
     border: none;
     color: white;
@@ -498,16 +516,28 @@ padding:10px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    transition:0.2s;
+  }
+  .projects button:hover {
+    background:white;
+    border:1px solid #FF7900;
+    color:#FF7900;
   }
 
   .testimonial {
+    
+    margin-bottom:10rem;
+    margin-top:10rem;
+    
+  }
+  .testimonial .flex-parent {
     display:flex;
     justify-content:space-between;
-    margin-bottom:5rem;
-    margin-top:5rem;
   }
   .testimonial h1 {
     text-align:center;
+    margin-bottom:3rem;
+    font-size:25px;
   }
   .testimonial span {
    color:#FF7900;
@@ -531,7 +561,7 @@ padding:10px;
     padding-top:10px;
   }
   .testimonial .header .inner div {
-    padding:20px;
+    padding:10px;
   }
   .testimonial .header .buffer{
      flex:1;
@@ -542,10 +572,8 @@ padding:10px;
   }
   .testimonial .content {
       padding:20px;
-
+      height:auto;
   }
-
-
   .filter-desktop{
     padding:3rem;
     margin:0 auto;

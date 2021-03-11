@@ -11,7 +11,7 @@ function Testimonial() {
             <div>
               <p>Norbert Hoog</p>
               <p>
-                <span>Regular</span>
+                <span>Regular Client</span>
               </p>
             </div>
           </div>
@@ -31,9 +31,9 @@ function Testimonial() {
           <div className="inner">
             <i class="fas fa-user"></i>
             <div>
-              <p>Norbert Hoog</p>
+              <p> Sarai Bonifacio </p>
               <p>
-                <span>Regular</span>
+                <span>Regular Client</span>
               </p>
             </div>
           </div>
@@ -53,9 +53,9 @@ function Testimonial() {
           <div className="inner">
             <i class="fas fa-user"></i>
             <div>
-              <p>Norbert Hoog</p>
+              <p> Reinier Tatenda</p>
               <p>
-                <span>Regular</span>
+                <span>Regular Client</span>
               </p>
             </div>
           </div>
