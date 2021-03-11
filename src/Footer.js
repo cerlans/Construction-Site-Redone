@@ -27,11 +27,11 @@ function Footer() {
           </div>
         </div>
         <div className="row">
-          <h1>Questions? Contact Us!</h1>
+          <h1>Questions? Contact <span>Us</span>!</h1>
           <ContactForm/>
         </div>
         <div className="row">
-          <h1>What we Offer!</h1>
+          <h1>What <span>we</span> Offer!</h1>
           <div>
             <ul>
               <li>General Contracting</li>
