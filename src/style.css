@@ -591,8 +591,6 @@ margin-bottom:20px;
   
 
 
-
-
 @media (min-width:801px)  { 
   .testimonial .flex-parent {
     display:flex;
@@ -600,15 +598,17 @@ margin-bottom:20px;
     flex-wrap:wrap;
   }
   .testimonial .flex-parent .monial-card {
-    flex-basis:45%;
+    flex-basis:47%;
   }
  }
 
 
 
 @media (min-width:1025px) { 
-
-
+  
+  .testimonial .flex-parent .monial-card {
+    margin-top:4rem;
+  }
 }
 
 
