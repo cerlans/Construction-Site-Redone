@@ -12,7 +12,7 @@ function Navigation() {
       <nav className="navigation">
         <div>
           <h1>
-            <span className="logo">Lex</span> Contractors
+            <span className="logo">Lex</span> contractors
           </h1>
         </div>
         <i class="fas fa-bars"></i>
