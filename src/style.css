@@ -18,7 +18,7 @@ p {
 	justify-content: space-between;
 	background: white;
 	color: #B7410E;
-	padding: 5px 0px 0px 5px;
+  padding:1rem;
 }
 .navigation h1 {
   color: #FF7900;
@@ -28,19 +28,14 @@ p {
 }
 
 
-.navigation img {
-	flex: 1;
-	margin: 10px;
-	width: 100%;
-  border:20px solid red !important;
-}
+
 
 .navigation i {
 	flex: 1;
 	text-align: right;
   color:black;
 	font-size: 35px;
-  
+  margin-top:5px;
 }
 .navigation .desktop-nav {
   display:none;
@@ -133,6 +128,7 @@ p {
   margin-bottom:1rem;
   /*Might change this later*/
   border-radius: 0.5rem;
+  height:auto;
 }
 .services.card:first-child {
   padding:30px;
@@ -428,7 +424,24 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
   display:block;
   padding:1rem;
 }
-
+.footer .social-links{
+  width:100%;
+  border:none;
+}
+.footer .social-links ul {
+display:flex;
+justify-content:center;
+border:none;
+}
+.footer .social-links li {
+  border:none !important;
+  margin:10px;
+}
+.footer .social-links ul li i {
+ border:none;
+ font-size:2rem;
+}
+/*
 .sub-parent {
   display:flex;
     padding:15px;
@@ -446,7 +459,7 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
   display:block;
 }
 
-
+*/ 
 
 
 
@@ -458,10 +471,7 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 .footer .contact-form {
  padding:0px;
 }
-.footer .social-links {
-  display:flex;
-  justify-content:center;
-}
+
 .footer .social-links div i {
  font-size:30px;
  cursor:pointer;
