@@ -53,7 +53,7 @@ function Testimonial() {
           <div className="inner">
             <i class="fas fa-user"></i>
             <div>
-              <p> Reiner Hoover</p>
+              <p> Reiner Hover</p>
               <p>
                 <span>Regular Client</span>
               </p>
@@ -74,7 +74,7 @@ function Testimonial() {
           <div className="inner">
             <i class="fas fa-user"></i>
             <div>
-              <p> Reiner Hoover</p>
+              <p> Ramier Hoover</p>
               <p>
                 <span>Regular Client</span>
               </p>

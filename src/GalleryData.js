@@ -36,22 +36,6 @@ const data = [
   photo:'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80',
   tag:'Residential',
   address:'71 Cypress Street',
-},{
-  photo:'https://images.unsplash.com/photo-1593604340846-4fbe9763a8f3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
-  tag:'Residential',
-  address:'832 Young Circle',
-},{
-  photo:'https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80',
-  tag:'Residential',
-  address:'89 Pilgrim St.',
-},{
-  photo:'https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-  tag:'Residential',
-  address:'544 Brookside Rd',
-},{
-  photo:'https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-  tag:'Nature',
-  address:'RandomStreet'
 }]
 
 

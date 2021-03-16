@@ -15,7 +15,9 @@ function Navigation() {
             <span className="logo">Lex</span> contractors
           </h1>
         </div>
+        <div className='mobile'>
         <i class="fas fa-bars"></i>
+        </div>
         <ul className="desktop-nav">
           <li class="hvr-underline-from-center">Home</li>
           <li class="hvr-underline-from-center">About Us</li>
@@ -40,9 +42,7 @@ function Navigation() {
             STAINLESS REPUTATION
           </h1>
           <p className="animate__animated  animate__fadeInRight">
-            We've earned an outstand reputation for our quality work and our
-            integrity in dealing with clients,architects,suppliers,and
-            sub-contractors.
+            At our company, we hire the best and the most committed construction experts who move the industry forward and create great spaces for your life and work
           </p>
           <button
             className="hvr-fade"

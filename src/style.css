@@ -30,7 +30,7 @@ p {
 
 
 
-.navigation i {
+.navigation .mobile i {
 	flex: 1;
 	text-align: right;
   color:black;
@@ -77,7 +77,7 @@ p {
 
 .Hero-content h1 {
 	/* not sure if the h1 looks better without the letter spacing o with, also i want to create more padding for the content around the image*/
-	letter-spacing: -0.09em;
+
 	font-size: 3rem;
 	font-weight: 600;
 	margin-bottom: 30px;
@@ -85,9 +85,8 @@ p {
 }
 
 .Hero-content p {
-	letter-spacing: -0.025em;
-	line-height: 2;
   color:white;
+  text-align:center;
 }
 
 .Hero-content button {
@@ -113,7 +112,7 @@ p {
 .slides-btn i {
   margin:20px;
   cursor:pointer;
-  color:white;
+  color:#FF7900;
 }
 
 
@@ -218,22 +217,22 @@ p {
   
 }
 .projects .experience .textured {
-  width:100%;
-  background-image: url('https://images.unsplash.com/photo-1606075920539-565e9f1de54c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGJsdWUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'); 
-        background-repeat: repeat; 
-       background-position: center; 
-        -webkit-background-clip: text; 
-        -webkit-text-fill-color: transparent; 
-        margin-top: 200px; 
-        font-size: 300px; 
-        text-align: center; 
-        overflow:hidden;
-        font-weight: bold; 
-        text-transform: uppercase; 
-        font-family: 'Steelfish Rg', 'helvetica neue', 
-                    helvetica, arial, sans-serif; 
-        font-weight: 800; 
-        -webkit-font-smoothing: antialiased; 
+ width: 100%;
+background-image: url('https://images.unsplash.com/photo-1606075920539-565e9f1de54c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGJsdWUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+background-repeat: repeat;
+background-position: center;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 200px;
+font-size: 250px;
+text-align: center;
+overflow: hidden;
+font-weight: bold;
+text-transform: uppercase;
+font-family: 'Steelfish Rg', 'helvetica neue', helvetica, arial, sans-serif;
+font-weight: 800;
+-webkit-font-smoothing: antialiased;
+display: block;
 }
 .projects h1 {
   letter-spacing:normal;
@@ -406,10 +405,11 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 
 .footer {
   width:100%;
-  height:auto;
+  height:100%;
   background:#1d232f;
   color:white;
   text-align:left;
+  border:1px solid #1d232f;
 }
 .footer .text {
   display:inline-block;
@@ -500,6 +500,7 @@ margin-bottom:20px;
   display: inline-block;
   font-size: 16px;
   transition:0.2s;
+  width:100%;
 }
   .footer button:hover{
    background:white;
@@ -621,10 +622,280 @@ margin-bottom:20px;
 
 
 
-@media (min-width:1025px) { 
+@media (min-width:1024px) { 
+  .navigation .mobile i  {
+    display:none;
+  }
+  .navigation .mobile {
+    display:none;
+  }
+  .navigation .desktop-nav {
+    display:flex;
+    justify-content:flex-end;
+    flex:1;
+  }
+  .navigation li {
+    color:black;
+    margin-top:10px;
+    margin-left:1.5rem;
+    font-size:16px;
+    font-weight:500;
+  }
+  .navigation .desktop-nav  li i {
+    color:#FF7900;
+    font-size:24px;
+  }
+
+  .hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background:#FF7900;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+.Hero {
+    height:70vh;
+  }
+  .services {
+    display:flex;
+  }
+  .img-cont{
+    flex:1;
+  }
+  .img-cont img {
+    	filter: opacity(90%);
+      height:auto;
+  }
+  .services .cards {
+      flex:1;
+     display:flex;
+     justify-content:space-between;
+     padding:50px;
+     flex-wrap:wrap;
+     text-align:center;
+  }
+  
+  .services .cards .card {
+    
+   max-width:320px;
+   height:300px;
+   padding:20px;
+   --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+  .services .cards .card:first-child button:hover {
+    background:#FF7900;
+    color:white;
+    border:3px solid #FF7900; ;
+    transition: 0.3s;
+    font-weight:600;
+  }
+  
+  .gallery-parent {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    width:100%;  
+  }
+  .gallery-parent .project-photo {
+      width:450px;
+      height:350px;
+      margin-top:1rem;
+      margin-bottom:1rem;
+  }
   
   .testimonial .flex-parent .monial-card {
     margin-top:4rem;
     
   }
+  .filter-container{
+    display:none;
+  }
+
+  .projects p {
+    width:50%;
+    margin:0 auto;
+    text-align:left;
+  }
+  .projects h1 {
+    color:black;
+  }
+  .projects h1 span {
+    color:#FF7900;
+  }
+  .projects button{
+    background-color: #FF7900;
+    cursor:pointer;
+    margin-top:10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition:0.2s;
+  }
+  .projects button:hover {
+    background:white;
+    border:1px solid #FF7900;
+    color:#FF7900;
+  }
+
+  .testimonial {
+    
+    margin-bottom:10rem;
+    margin-top:10rem;
+    
+  }
+  .testimonial .flex-parent {
+    display:flex;
+    justify-content:space-between;
+  }
+  .testimonial h1 {
+    text-align:center;
+    margin-bottom:3rem;
+    font-size:25px;
+  }
+  .testimonial span {
+   color:#FF7900;
+  }
+
+  .testimonial .monial-card {
+    width:470px;
+    height:auto;
+    margin:0 auto;
+    padding:20px;
+    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+  .testimonial .header {
+     display:flex;
+  }
+  .testimonial .header .inner {
+    align-items: center;
+    flex:1;
+    display:flex;
+    padding-top:10px;
+  }
+  .testimonial .header .inner div {
+    padding:10px;
+  }
+  .testimonial .header .buffer{
+     flex:1;
+  }
+  .testimonial i {
+    font-size:50px;
+    margin:10px;
+  }
+  .testimonial .content {
+      padding:20px;
+      height:auto;
+  }
+  .projects .filter-desktop{
+    display:block;
+    margin:0 auto;
+    width:50%;
+  
+  }
+  .filter-desktop ul{
+     list-style-type:none;
+     display:flex;
+     justify-content:space-between;
+  }
+  .filter-desktop li {
+    border-bottom:1px solid #FF7900;
+    cursor:pointer;
+    transition: 0.2s;
+    font-size:17px;
+    letter-spacing: -1.2px;
+    margin-left:10px;
+    
+  }
+  .filter-desktop li:hover {
+    color:#FF7900;
+  }
+
+
+
+
+
+  /*Desktop footer starts here*/
+  .footer{
+   display:flex;
+   justify-content:space-between;
+  }
+  .footer span {
+    color:#FF7900;
+  }
+  .footer .row {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    padding:50px;
+  }
+  .footer .row:nth-child(2) h1{
+    margin-bottom:2rem;
+  }
+  .footer .row div {
+    margin-bottom:10px;
+    padding:10px;
+  }
+  .footer .row h1 {
+    text-align:center;
+    
+  }
+  .footer .row h2 span {
+    color:#FF7900;
+    font-size:30px;
+    text-transform: uppercase;
+  }
+  .footer .row h3{
+    display:inline-block;
+    color:#FF7900;
+    text-transform:uppercase;
+  }
+  .footer .row .contact-links {
+    padding:10px;
+  }
+ 
+  
+  .footer .row ul li{
+    cursor:pointer;
+    font-size:25px;
+    padding:1rem;
+    border-bottom:1px solid gray;
+    text-align:justify;
+    transition:0.2s;
+  }
+  .footer ul li:hover{
+    color:#FF7900; ;
+  }
+
 }
