@@ -820,8 +820,12 @@ margin-bottom:20px;
   .projects .filter-desktop{
     display:block;
     margin:0 auto;
+    margin-bottom:2rem;
     width:50%;
   
+  }
+  .projects p {
+    width:100% !important;
   }
   .filter-desktop ul{
      list-style-type:none;
