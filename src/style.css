@@ -77,8 +77,6 @@ p {
 }
 
 .Hero-content h1 {
-	/* not sure if the h1 looks better without the letter spacing o with, also i want to create more padding for the content around the image*/
-
 	font-size: 3rem;
 	font-weight: 600;
 	margin-bottom: 30px;
@@ -406,7 +404,7 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 
 .footer {
   width:100%;
-  height:100%;
+  height:auto;
   background:#1d232f;
   color:white;
   text-align:left;
@@ -442,33 +440,7 @@ border:none;
  border:none;
  font-size:2rem;
 }
-/*
-.sub-parent {
-  display:flex;
-    padding:15px;
-  border-bottom: 1px solid gray;
-}
-.sub-parent div {
-   flex:1;
-}
-.sub-parent h3 {
-  color:#FF7900;
-  margin-top:10px;
-  text-transform:uppercase;
-}
-.sub-parent span {
-  display:block;
-}
-
-*/ 
-
-
-
-
 /*Contact form input felds start here */
-.footer {
-  height:100%;
-}
 .footer .contact-form {
  padding:0px;
 }
@@ -854,6 +826,7 @@ margin-bottom:20px;
   .footer{
    display:flex;
    justify-content:space-between;
+   height:auto;
   }
   .footer span {
     color:#FF7900;
