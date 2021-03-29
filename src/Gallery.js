@@ -4,11 +4,11 @@ import Card from "./Card.js";
 
 function Gallery() {
   const [filter, setFilter] = useState("");
-  const [myData, setData] = useState();
+  const [photoData, setData] = useState();
   const [currentClass, setClass] = useState("hidden-menu");
   useEffect(() => {
     if (filter === "") {
-      let allResults = data.map(function (value) {
+      let allResults = data.map((value)=>{
         return (
           <Card tag={value.tag} photo={value.photo} address={value.address} />
         );
@@ -16,11 +16,11 @@ function Gallery() {
       setData(allResults);
     } else {
       let filteredResult = data
-        .filter(function (value) {
+        .filter((value) => {
           return value.tag === filter;
         })
-        .map(function (value) {
-          return (
+        .map((value) => {
+           return (
             <Card tag={value.tag} photo={value.photo} address={value.address} />
           );
         });
@@ -33,7 +33,8 @@ function Gallery() {
         <div
           className="filter-button"
           onClick={() => {
-            currentClass ? setClass("filter-menu") : setClass("hidden-menu");
+            currentClass ? setClass("filter-menu") : null;
+            
           }}
         >
           Filter
@@ -102,7 +103,7 @@ function Gallery() {
           </li>
         </ul>
       </div>
-      <div className="gallery-parent">{myData}</div>
+      <div className="gallery-parent">{photoData}</div>
     </>
   );
 }

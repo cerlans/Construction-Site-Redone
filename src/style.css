@@ -5,12 +5,11 @@
 	margin: 0px;
 	font-family: 'Poppins', sans-serif;
   box-sizing:border-box;
- 
 }
 
 p {
 	line-height: 1.6;
- 
+  
 }
 
 .navigation {
@@ -74,13 +73,14 @@ p {
 	text-align: center;
 	margin: 0.625rem;
 	padding: 20px;
+
 }
 
 .Hero-content h1 {
 	font-size: 3rem;
 	font-weight: 600;
 	margin-bottom: 30px;
-	color: white;
+	color:#FF7900;
 }
 
 .Hero-content p {
@@ -337,6 +337,7 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 }
 .projects .experience button {
   all:unset;
+  margin-top:2rem;
   padding: 10px 22px;
   background:#FF7900;
   color:white;
@@ -347,7 +348,6 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 /* Testimonial Section */
 
 .testimonial {
-    
     margin-bottom:10rem;
     margin-top:10rem;
     padding:10px;
