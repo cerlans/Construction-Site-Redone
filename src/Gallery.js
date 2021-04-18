@@ -28,11 +28,10 @@ function Gallery() {
     }
   }, [filter]);
 function verify(){  
-    if (currentClass === 'hidden-menu'){
+  if (currentClass === 'hidden-menu'){
     setClass('filter-menu')
   } else if (currentClass ==='filter-menu'){
     setClass('hidden-menu')
-    console.log('working?')
   }
 }
   return (
@@ -40,16 +39,15 @@ function verify(){
       <div className="filter-container">
         <div
           className="filter-button"
-          onClick={() => {
-            currentClass ? setClass("filter-menu") : null;
-            
-          }}
+          onClick={verify}
         >
           Filter
           <i class="fas fa-sort-down"></i>
           <div className={currentClass}>
             <button
-              onClick={verify}
+              onClick={() => {
+                setFilter("");
+              }}
             >
               All photos
             </button>
