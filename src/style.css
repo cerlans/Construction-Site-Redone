@@ -59,7 +59,7 @@ p {
 	font-size: 3rem;
 	font-weight: 600;
 	margin-bottom: 30px;
-	color: #FF7900;
+	color: white;
 }
 
 .Hero-content p {
@@ -887,7 +887,7 @@ p {
 @media (min-width:1281px) {
 	.Hero-content .hero-Image img {
 		width: 100%;
-		height: 50vh;
+		height: 65vh;
 	}
 }
 
