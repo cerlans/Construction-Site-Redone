@@ -32,6 +32,10 @@ function Navigation() {
           <div className="hero-Image">
             <img src="https://i.vgy.me/OmzKhK.jpg" alt="building" />
           </div>
+          <div className='hero-text'>
+          <h1>Stainless Reputation</h1>
+          <p>We’ve earned an outstanding reputation for our quality work and our integrity in dealing with clients, architects, suppliers, and subcontractors.</p>
+          </div>
         </div>
       </section>
     </>

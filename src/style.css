@@ -56,12 +56,8 @@ p {
 
 .Hero-content {
 	position: relative;
-	font-family: "Monserrat", sans-serif;
 	color: white;
 	text-align: center;
-	margin: 0.625rem;
-	padding: 20px;
-
 }
 
 .Hero-content h1 {
@@ -94,9 +90,17 @@ p {
 }
 .Hero-content .hero-Image {
   width:100%;
+  position: relative;
 }
+
 .Hero-content .hero-Image img {
   width:100%;
+}
+.Hero-content .hero-text {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .slides-btn {
  margin-top:10rem;
