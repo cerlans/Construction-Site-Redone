@@ -27,6 +27,14 @@ function Gallery() {
       setData(filteredResult);
     }
   }, [filter]);
+function verify(){  
+    if (currentClass === 'hidden-menu'){
+    setClass('filter-menu')
+  } else if (currentClass ==='filter-menu'){
+    setClass('hidden-menu')
+    console.log('working?')
+  }
+}
   return (
     <>
       <div className="filter-container">
@@ -41,9 +49,7 @@ function Gallery() {
           <i class="fas fa-sort-down"></i>
           <div className={currentClass}>
             <button
-              onClick={() => {
-                setFilter("");
-              }}
+              onClick={verify}
             >
               All photos
             </button>
