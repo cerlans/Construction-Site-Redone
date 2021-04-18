@@ -735,7 +735,7 @@ p {
 	.projects p {
 		width: 50%;
 		margin: 0 auto;
-		text-align: left;
+		text-align: center;
 	}
 	.projects h1 {
 		color: black;
@@ -815,9 +815,7 @@ p {
 		margin-bottom: 2rem;
 		width: 50%;
 	}
-	.projects p {
-		width: 100% !important;
-	}
+	
 	.filter-desktop ul {
 		list-style-type: none;
 		display: flex;
